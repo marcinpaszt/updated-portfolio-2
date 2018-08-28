@@ -440,7 +440,8 @@ body {
     padding: 60px 0px 80px 0px;
 }
 ul.numbersList {
-    margin: 0px auto;
+	margin: 0px auto;
+	margin-left: 25%;
     padding: 0px;
     overflow: hidden;
     list-style: none;
@@ -463,7 +464,7 @@ ul.numbersList span{
 
 .numbers-title {
     padding: 10px 0;
-    position: relative;
+	text-align: center;
 }
 
 
@@ -615,8 +616,8 @@ input[type="submit"]:hover {
 
 .social-box {
     list-style-type: none;
-    padding-left: 71px;
-    margin-top: 30px;
+	margin-top: 30px;
+	margin-right: 60px;
 }
 
 .social-box li {
@@ -663,9 +664,19 @@ input[type="submit"]:hover {
 }
 
 .linkedin-icon {
-	padding: 10px 15px;
-	border: 1px solid #1B86BD;
-	background-color: #1B86BD;
+	padding: 50px;
+}
+
+.github-icon{
+	padding:50px;
+}
+
+.mail-icon{
+	padding:50px;
+}
+
+.pdf-icon{
+	padding: 50px;
 }
 
 .linkedin-icon:hover {
@@ -686,7 +697,7 @@ input[type="submit"]:hover {
 }
 
 .copyright {
-	text-align: left;
+	text-align: center;
 }
 
 .designed-by {
